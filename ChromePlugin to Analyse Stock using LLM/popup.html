@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Stock Price Analyzer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Stock Price Analyzer</h1>
+    <div class="input-group">
+      <label for="stock-symbol">Stock Symbol:</label>
+      <input type="text" id="stock-symbol" placeholder="e.g., AAPL, GOOGL, MSFT, AMZN">
+      <button id="analyze-btn">Analyze</button>
+    </div>
+    <div class="alert-info">
+      <p>You'll receive a notification if the stock has increased by 2% or more in the last 5 trading days.</p>
+      <p class="small-text">Try popular symbols like AAPL (Apple), GOOGL (Google), MSFT (Microsoft), or AMZN (Amazon)</p>
+      <p class="note-text">Note: If Alpha Vantage API is unavailable, simulated data will be used for demonstration.</p>
+    </div>
+    <div id="loading" class="hidden">Analyzing...</div>
+    <div id="result-container" class="hidden">
+      <h2>Analysis Result</h2>
+      <div id="analysis-result"></div>
+    </div>
+  </div>
+  <!-- Load config before main script -->
+  <script src="config.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html> 
