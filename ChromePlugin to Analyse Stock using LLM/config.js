@@ -5,8 +5,8 @@
 // that will be replaced during the build process or manually by the user.
 
 const CONFIG = {
-  GEMINI_API_KEY: 'AIzaSyAIYEORe2gEYFZKH6FuyBI5Wk18qag8ZOE', // Replace with actual key or import from .env
-  ALPHA_VANTAGE_API_KEY: 'UP8XDRL1H0GZSJJ7' // Using demo key for testing. Replace with your actual key for production use.
+  GEMINI_API_KEY: 'YOUR_GEMINI_API_KEY', // Replace with actual key or import from .env
+  ALPHA_VANTAGE_API_KEY: 'YOUR_VANTAGE_API_KEY' // Using demo key for testing. Replace with your actual key for production use.
 };
 
 // Export the configuration
