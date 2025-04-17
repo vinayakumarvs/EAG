@@ -1,0 +1,7 @@
+python-dotenv
+google-generativeai
+pywinauto
+Pillow
+# Add the specific MCP library package name if known, e.g.:
+# mcp-client-library-name
+# mcp-server-library-name
